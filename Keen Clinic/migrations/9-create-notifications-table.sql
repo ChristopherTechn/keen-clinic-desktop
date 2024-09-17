@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS "notifications"(
+    "id" INTEGER,
+    "title" TEXT DEFAULT NULL,
+    "body" TEXT NOT NULL,
+    "userId" INTEGER DEFAULT NULL,
+    "createdAt" TEXT NOT NULL,
+    "viewedAt" TEXT DEFAULT NULL,
+    PRIMARY KEY("id")
+    FOREIGN KEY("userId") REFERENCES "user" ON UPDATE CASCADE ON DELETE CASCADE
+);

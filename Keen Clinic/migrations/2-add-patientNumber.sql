@@ -1,0 +1,1 @@
+ALTER TABLE patient ADD COLUMN outpatientNumber TEXT DEFAULT NULL;

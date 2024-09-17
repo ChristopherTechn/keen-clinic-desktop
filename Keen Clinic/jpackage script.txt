@@ -1,0 +1,1 @@
+jpackage --app-version 1.0.4 --description "Keen Clinic" -n "Keen Clinic" --vendor "GVL Digital Solutions" --main-jar .\Keen_Clinic.jar --about-url "https://gvlsolutions.com" --win-dir-chooser --win-menu --win-shortcut --win-shortcut-prompt --win-upgrade-uuid "254E8A84-7540-4B14-BE2F-084AA1E8F984" --runtime-image "C:\Users\DELL\Documents\Keen Clinic\jdk-21-mini-jre" --input .
